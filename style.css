@@ -37,8 +37,21 @@ main {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.highlight {
+  border-left: 6px solid #6366f1;
+  background: #eef2ff;
+}
+
 .card h2 {
   margin-bottom: 0.5rem;
+}
+
+.steps {
+  padding-left: 1.25rem;
+}
+
+.steps li + li {
+  margin-top: 0.5rem;
 }
 
 button {
